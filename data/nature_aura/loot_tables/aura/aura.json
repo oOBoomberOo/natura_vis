@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ucit:{id: \"aura\", from: \"boomber:nature_aura\", author:[\"boomber\"]}}"
+							"tag": "{ucit:{nature_aura:{aura: 50000, max_aura: 100000, transfer_rate: 5}, id: \"aura\", from: \"nature_aura\", author:[\"boomber\"]}}"
 						}
 					],
 					"name": "minecraft:paper"

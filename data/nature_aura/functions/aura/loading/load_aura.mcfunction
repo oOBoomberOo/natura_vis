@@ -1,0 +1,2 @@
+execute as @e[type=armor_stand, tag=nature_aura.aura, distance=..1] if score @s bb.session = #na.aura.session bb.variable run tag @s add nature_aura.aura.loading
+execute if entity @e[type=armor_stand, tag=nature_aura.aura, distance=..1] run scoreboard players set @s bb.success 1
