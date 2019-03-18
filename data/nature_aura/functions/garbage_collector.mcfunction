@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand, tag=nature_aura.aura.io.getter] at @s run kill @s

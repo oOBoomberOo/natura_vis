@@ -1,9 +1,9 @@
 {
 	"display": {
-		"title": "Boomber",
+		"title": "Nature Aura v0.0.1",
 		"description": "",
 		"icon": {
-			"item": "minecraft:command_block"
+			"item": "minecraft:vine"
 		},
 		"announce_to_chat": false,
 		"show_toast": false
