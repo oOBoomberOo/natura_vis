@@ -1,1 +1,0 @@
-execute as @s unless score @s bb.session = #na.aura.session bb.variable run kill @s

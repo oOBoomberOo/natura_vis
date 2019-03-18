@@ -1,0 +1,33 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": [
+								{"text": "Aura", "color": "aqua", "italic": false}
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{"text": "You shouldn't have this item in your inventory!", "color": "red", "italic": false},
+								{"text": "Please report this to server admin!", "color": "red", "italic": false}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ucit:{boomber:{natura_vis:{{aura: 50000, max_aura: 100000, transfer_rate: 5}}, id: \"aura\", from: \"boomber:natura_vis\", author:[\"boomber\"]}}"
+						}
+					],
+					"name": "minecraft:paper"
+				}
+			]
+		}
+	]
+}

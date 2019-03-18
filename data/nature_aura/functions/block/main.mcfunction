@@ -1,4 +1,0 @@
-execute as @e[type=item_frame, tag=nature_aura.structure.multi_block, tag=!nature_aura.structure.animation] at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function nature_aura:block/multi_block/update
-execute as @e[type=item_frame, tag=nature_aura.structure.multi_block, tag=!nature_aura.structure.animation] at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function nature_aura:block/multi_block/update_structure
-execute as @e[type=item_frame, tag=nature_aura.structure.multi_block, tag=nature_aura.structure.animation] at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function nature_aura:block/multi_block/animation
-execute as @e[type=item_frame, tag=!nature_aura.structure.breaking, tag=!nature_aura.structure.multi_block] if data entity @s Item.Count at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function nature_aura:block/multi_block/init

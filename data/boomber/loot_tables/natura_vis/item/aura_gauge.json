@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": [
+								{"text": "Aura Guage", "color": "green", "italic": false}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ucit:{id: \"aura_guage\", from: \"boomber:natura_vis\", author:[\"boomber\"]}}"
+						}
+					],
+					"name": "minecraft:clock"
+				}
+			]
+		}
+	]
+}
